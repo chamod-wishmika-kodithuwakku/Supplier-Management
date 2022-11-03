@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>Uptrend</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+		<servlet-name>userRegistration</servlet-name>
+		<servlet-class>com.controller.UserRegistration</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userRegistration</servlet-name>
+		<url-pattern>/functions/user%20management/userReg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.controller.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/functions/user%20management/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login2</servlet-name>
+		<servlet-class>com.controller.Login2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login2</servlet-name>
+		<url-pattern>/functions/common/Login2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>menubehavior</servlet-name>
+		<servlet-class>com.controller.MenuBehavior</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>menubehavior</servlet-name>
+		<url-pattern>/functions/user%20management/menubehavior</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>usersettings</servlet-name>
+		<servlet-class>com.controller.UserSettings</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>usersettings</servlet-name>
+		<url-pattern>/functions/user%20management/usersettings</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>adminlogin</servlet-name>
+		<servlet-class>com.controller.AdminLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminlogin</servlet-name>
+		<url-pattern>/functions/user%20management/adminlogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>forgotpassword</servlet-name>
+		<servlet-class>com.controller.ForgotPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>forgotpassword</servlet-name>
+		<url-pattern>/functions/user%20management/forgotpassword</url-pattern>
+	</servlet-mapping>
+	
+  
+	<servlet>
+		<servlet-name>deleteuserpermenently</servlet-name>
+		<servlet-class>com.controller.DeleteUserPermenently</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteuserpermenently</servlet-name>
+		<url-pattern>/functions/user%20management/deleteuserpermenently</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>ApproveNote</servlet-name>
+		<servlet-class>com.controller.ApproveNote</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApproveNote</servlet-name>
+		<url-pattern>/functions/user%20management/ApproveNote</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>viewDeletedUser</servlet-name>
+		<servlet-class>com.controller.viewDeletedUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewDeletedUser</servlet-name>
+		<url-pattern>/functions/user%20management/viewDeletedUser</url-pattern> 
+	</servlet-mapping>
+	
+    <servlet>
+		<servlet-name>reports</servlet-name>
+		<servlet-class>com.controller.Reports</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reports</servlet-name>
+		<url-pattern>/functions/user%20management/reports</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>reports2</servlet-name>
+		<servlet-class>com.controller.Reports2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reports2</servlet-name>
+		<url-pattern>/functions/user%20management/reports2</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>delete_approved_notes</servlet-name>
+		<servlet-class>com.controller.delete_approved_notes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete_approved_notes</servlet-name>
+		<url-pattern>/functions/user%20management/delete_approved_notes</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>view_Approved_Notes</servlet-name>
+		<servlet-class>com.controller.view_Approved_Notes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>view_Approved_Notes</servlet-name>
+		<url-pattern>/functions/user%20management/view_Approved_Notes</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>view_Rejected_Notes</servlet-name>
+		<servlet-class>com.controller.view_Rejected_Notes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>view_Rejected_Notes</servlet-name>
+		<url-pattern>/functions/user%20management/view_Rejected_Notes</url-pattern>
+	</servlet-mapping>
+	
+	
+	 <servlet>
+		<servlet-name>AdminRegistration</servlet-name>
+		<servlet-class>com.controller.AdminRegistration</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminRegistration</servlet-name>
+		<url-pattern>/functions/user%20management/AdminRegistration</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	 <servlet>
+		<servlet-name>viewPendingDeliveryNotes</servlet-name>
+		<servlet-class>com.controller.viewPendingDeliveryNotes</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>viewPendingDeliveryNotes</servlet-name>
+		<url-pattern>/functions/user%20management/viewPendingDeliveryNotes</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>usersearch</servlet-name>
+		<servlet-class>com.controller.UserSearch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>usersearch</servlet-name>
+		<url-pattern>/functions/user%20management/usersearch</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>addnote</servlet-name>
+		<servlet-class>com.controller.AddDeliveryNote</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addnote</servlet-name>
+		<url-pattern>/functions/user%20management/addnote</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Home</servlet-name>
+		<servlet-class>com.controller.Home</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/functions/common/Home</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>new-sup-stock</servlet-name>
+		<servlet-class>com.controller.NewStockServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>new-sup-stock</servlet-name>
+		<url-pattern>/functions/inventory-management/newly-added-stock</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>request-new-stock</servlet-name>
+		<servlet-class>com.controller.NewStockServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>request-new-stock</servlet-name>
+		<url-pattern>/functions/inventory-management/item-request</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>insert-new-stock</servlet-name>
+		<servlet-class>com.controller.NewStockServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insert-new-stock</servlet-name>
+		<url-pattern>/functions/inventory-management/insert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>display-inventory-table</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>display-inventory-table</servlet-name>
+		<url-pattern>/functions/inventory-management/inventory-dashboard</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>request-for-update-inventory-record</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>request-for-update-inventory-record</servlet-name>
+		<url-pattern>/functions/inventory-management/update-request</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>update-inventory-record</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update-inventory-record</servlet-name>
+		<url-pattern>/functions/inventory-management/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>request-for-delete-inventory-record</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>request-for-delete-inventory-record</servlet-name>
+		<url-pattern>/functions/inventory-management/delete-request</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>temporarily-delete-inventory-record</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>temporarily-delete-inventory-record</servlet-name>
+		<url-pattern>/functions/inventory-management/delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>bin-record</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bin-record</servlet-name>
+		<url-pattern>/functions/inventory-management/bin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>request-bin-id</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>request-bin-id</servlet-name>
+		<url-pattern>/functions/inventory-management/permanent-delete-request</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>delete-bin-record</servlet-name>
+		<servlet-class>com.controller.InventoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete-bin-record</servlet-name>
+		<url-pattern>/functions/inventory-management/confirm-delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>request-report</servlet-name>
+		<servlet-class>com.controller.ReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>request-report</servlet-name>
+		<url-pattern>/functions/inventory-management/report</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+  
+</web-app>
